@@ -17,3 +17,7 @@ Website: https://Lumina-StudioBG.github.io/insurance-sofia/
 Run `powershell.exe -NoProfile -ExecutionPolicy Bypass -File scripts/publish.ps1` to build the GitHub Pages copy, push the source to `main` and publish the prepared files to `gh-pages`. GitHub Pages serves that branch automatically. Authentication uses the signed-in GitHub CLI; no credentials are stored in this repository.
 
 The original website and repository remain separate. This repository starts with a clean history containing only this generic demo.
+
+## SiteGround version
+
+The standalone copy is hosted at https://luminastudio.bg/insurance/. Build it with `python scripts/build-siteground.py`; upload the contents of `_siteground/` into the hosting folder `public_html/insurance/`. The Lumina homepage has no added navigation link to this demo.
